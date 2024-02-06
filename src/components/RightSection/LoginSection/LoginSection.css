@@ -1,0 +1,115 @@
+#login *{
+    font-family: 'Poppins', sans-serif;   
+}
+
+#password{
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    /* padding: 2px; */
+}
+#login h5 {
+    padding-bottom: 1%;
+    padding-top: 3%;
+}
+#login input{
+    width: 94%;
+    padding: 10px 2.5%;
+    font-size: 15px;
+    color: grey;
+}
+#password input{
+    border: 0;
+    padding: 2.5%;
+}
+#password button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    display:inline-block;
+}
+#login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 2%;
+    padding: 5%;
+    padding-top: 2%;
+    font-weight: 100;
+    color: rgba(0,0,0,0.7);
+}
+#login h1 {
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    padding-top: 0px ;
+}
+#signin {
+    background-color: rgb(23,112,217);
+    color: white;
+}
+#signinbuttons {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+}
+#signinbuttons button img {
+    /* margin-left: 10px; */
+    display: flex;
+    align-self: center;
+}
+#signinbuttons button {
+
+    background-color: white;
+    border-color: rgba(23,112,217,0.5);
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 1%;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+}
+#fp {
+    border: none;
+    background-color: inherit;
+    /* padding: 14px 28px; */
+    font-size: 14px;
+    cursor: pointer;
+    display:inline-block;
+    color: rgb(23,112,217);
+    padding: 0;
+    padding-top: 2%;
+}
+#signin {
+    display: block;
+    margin-top: 5%;
+    padding: 1em;
+    border: white;
+    border-radius: 5px;
+    width: 100%;
+}
+#or {
+
+    padding: 2.5%;
+    font-weight: 400;
+    font-size: 15px;
+}
+#return p{
+    font-size: 12px;
+    text-align: center;
+    padding: 10%;
+    padding-top: 20%;
+    font-weight: 400;
+    /* border: 1px solid black; */
+}
+#return button {
+    border: none;
+    background-color: inherit;
+    color: rgb(23,112,217);
+    padding-top: 10%;
+}
